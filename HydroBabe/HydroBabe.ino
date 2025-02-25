@@ -15,7 +15,7 @@ const byte relay1 = 10, relay2 = 11, relay3 = 12, relay4 = 13;
 const byte ROWS = 4; // Declarations for the keypad to function
 const byte COLS = 4;
 
-char keypadKeys[ROWS][COLS] = {
+char keypadKeys[ROWS][COLS] = { // Comment
     {'1', '2', '3', 'A'},
     {'4', '5', '6', 'B'},
     {'7', '8', '9', 'C'},
